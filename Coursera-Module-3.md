@@ -1,7 +1,7 @@
 ---
 title: "Module 3 - Coursera"
 author: "Donata Boretti"
-date: "`r Sys.Date()`"
+date: "2024-07-03"
 output:
   html_document:
     keep_md: true
@@ -11,9 +11,7 @@ output:
     code_folding: hide
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 ## R Markdown {#nextsteps .emphasized}
 
@@ -21,9 +19,12 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
-```{r cars}
+
+``` r
 plot(cars)
 ```
+
+![](Coursera-Module-3_files/figure-html/cars-1.png)<!-- -->
 
 ## A short list
 
@@ -39,8 +40,6 @@ $$ Y = \beta_0 + \beta_1*x $$
 
 You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+![](Coursera-Module-3_files/figure-html/pressure-1.png)<!-- -->
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
